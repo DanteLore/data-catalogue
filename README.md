@@ -39,17 +39,15 @@ Update the index whenever you add or remove a file.
 3. Add a line to `index.md`.
 4. Commit it.
 
-That's the whole process. No review, approval or ticket is required. Working alone, commit directly. On a team, a pull request with no mandatory reviewer is fine - nothing should block a file from being committed except the author's own judgement.
+That's the whole process. No review, approval or ticket is required. Working alone, commit directly. On a team, follow whatever process you would normally follow (pull request, merge request, whatever).  The only things that really matter are A: that you use the same workflow for code and docs and B: that you prioritise simplicity across the process.
 
 ### Updating an entry
 
-Same as writing a new one: edit the file, commit it. Git history is your changelog and audit trail - there's no version field or changelog section inside the file. To see when a field changed or who wrote what, use `git log` or `git blame`. Note that 
-you are absolutely free to impose whatever process you like over the git process here - CI/CD scripts, pull/merge requests and
-so on.  Git is used specifically to support flexibility.
+Same as writing a new one: edit the file, commit it. Git history is your changelog and audit trail - there's no version field or changelog section inside the file because Git gave us all that for free. To see when a field changed or who wrote what, use `git log` or `git blame`. Note that you are absolutely free to impose whatever process you like over the git process here - CI/CD scripts, pull/merge requests and so on.  Git is used specifically to support flexibility.
 
-### Keeping it honest
+### Be honest
 
-Fill in **Known issues & caveats** properly. Write down the duplicates, the missing fields, the odd date format, anything you have to work around to use the data. If there's genuinely nothing to report, write "None known" rather than leaving it blank. This is the most valuable section in any entry and the one most often skipped.
+Fill in **Known issues & caveats** properly. Write down the duplicates, the missing fields, the odd date format, anything you have to work around to use the data. If there's genuinely nothing to report, write "None known" rather than leaving it blank. This is the most valuable section in any entry and the one most often skipped. You'll thank yourself when you come back in a few months time!
 
 ### Coverage over completeness
 
