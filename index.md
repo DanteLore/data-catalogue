@@ -36,6 +36,13 @@ One line per dataset. For full details, follow the link.
 | [natgas_sap](energy-etl/natgas_sap.md) | National Gas System Average Price (p/kWh) by gas day |
 | [eia_brent_crude](energy-etl/eia_brent_crude.md) | Europe Brent crude oil daily spot price (USD/barrel), weekdays only |
 
+## analytics-etl
+
+| Dataset | Description |
+|---|---|
+| [incoming.webanalytics](analytics-etl/incoming/webanalytics.md) | Raw CloudFront access logs for dantelore.com — one row per HTTP request, tab-delimited, partitioned by year/month/day |
+| [lake.webanalytics](analytics-etl/lake/webanalytics.md) | Enriched web analytics with geolocation, user-agent parsing, bot detection and content flagging — the main analysis table |
+
 ## gov-etl
 
 | Dataset | Description |
