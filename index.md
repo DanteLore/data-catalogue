@@ -43,6 +43,12 @@ One line per dataset. For full details, follow the link.
 | [incoming.webanalytics](analytics-etl/incoming/webanalytics.md) | Raw CloudFront access logs for dantelore.com — one row per HTTP request, tab-delimited, partitioned by year/month/day |
 | [lake.webanalytics](analytics-etl/lake/webanalytics.md) | Enriched web analytics with geolocation, user-agent parsing, bot detection and content flagging — the main analysis table |
 
+## rail-etl
+
+| Dataset | Description |
+|---|---|
+| [rtt_services](rail-etl/rtt_services.md) | RTT actual-vs-scheduled times, cancellations and formation for THA/RDG/PAD |
+
 ## gov-etl
 
 | Dataset | Description |
